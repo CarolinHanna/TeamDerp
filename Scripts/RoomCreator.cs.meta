@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e6e1eecc00031374a84ef2d5f3654810
+timeCreated: 1487003339
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - room_prefab: {fileID: 1000013386828932, guid: 26ef897c5e256c848885f52f7d878939,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

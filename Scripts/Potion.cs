@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Items/Potion")]
 public class Potion : Item {
 
-	[SerializeField] type potion_type;
+	[SerializeField] PotionType potion_type;
+	[SerializeField] int restore_amount = 1;
 
 	protected override void use_item(){
-		
+		Debug.LogWarning("Used potion but shits not implimented");
 	}
 
-	enum type{
+	enum PotionType{
 		health,
 		mana,
 	}
